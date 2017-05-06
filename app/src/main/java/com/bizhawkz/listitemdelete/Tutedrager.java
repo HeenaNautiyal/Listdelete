@@ -17,6 +17,5 @@ public class Tutedrager extends AppCompatActivity {
         List<String> list = Arrays.asList(new String[] {"First", "Second", "Third"});
         int index = list.indexOf("Third"); // 1
         System.out.println(index);
-        /*        Find the 2nd position item in array*/
     }
 }
