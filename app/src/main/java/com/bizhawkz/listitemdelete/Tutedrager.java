@@ -1,7 +1,10 @@
 package com.bizhawkz.listitemdelete;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+
+import java.util.Arrays;
+import java.util.List;
 
 public class Tutedrager extends AppCompatActivity {
     String strToPrint;
@@ -10,18 +13,10 @@ public class Tutedrager extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tutedrager);
-        int aNums[] = { 2, 4, 6 };
-        System.out.println(java.util.Arrays.toString(aNums));
-        for(int i=0; i<5; i++) {
 
-            for (int j = 0; j < 5 - i; j++) {
-                System.out.print(" ");
-            }
-            for (int k = 0; k <= i; k++) {
-                System.out.print("* ");
-            }
-
-            System.out.println();
-        }
+        List<String> list = Arrays.asList(new String[] {"First", "Second", "Third"});
+        int index = list.indexOf("Third"); // 1
+        System.out.println(index);
+        /*        Find the 2nd position item in array*/
     }
 }
