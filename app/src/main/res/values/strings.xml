@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ListItemDelete</string>
+    <string name="hintTxtItem">Enter an item here ...</string>
+    <string name="lblBtnAdd">Add Item</string>
+    <string name="txtEmpty">List is empty</string>
+    <string name="lblBtnDel">Delete Selected Items</string>
 </resources>
